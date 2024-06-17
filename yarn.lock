@@ -2599,6 +2599,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@storybook/addon-a11y@npm:^8.1.9":
+  version: 8.1.9
+  resolution: "@storybook/addon-a11y@npm:8.1.9"
+  dependencies:
+    "@storybook/addon-highlight": "npm:8.1.9"
+    axe-core: "npm:^4.2.0"
+  checksum: 10c0/c375893e20d3b9a4af9e314b62d3bd86d9492f80f90b9513f556c93b73837dd68e747af33ee15739737223def2a43b932442f5b2321fd72aae9e8a1519387e69
+  languageName: node
+  linkType: hard
+
 "@storybook/addon-actions@npm:8.1.9":
   version: 8.1.9
   resolution: "@storybook/addon-actions@npm:8.1.9"
@@ -4835,6 +4845,13 @@ __metadata:
   version: 4.7.0
   resolution: "axe-core@npm:4.7.0"
   checksum: 10c0/89ac5712b5932ac7d23398b4cb5ba081c394a086e343acc68ba49c83472706e18e0799804e8388c779dcdacc465377deb29f2714241d3fbb389cf3a6b275c9ba
+  languageName: node
+  linkType: hard
+
+"axe-core@npm:^4.2.0":
+  version: 4.9.1
+  resolution: "axe-core@npm:4.9.1"
+  checksum: 10c0/ac9e5a0c6fa115a43ebffc32a1d2189e1ca6431b5a78e88cdcf94a72a25c5964185682edd94fe6bdb1cb4266c0d06301b022866e0e50dcdf6e3cefe556470110
   languageName: node
   linkType: hard
 
@@ -11953,6 +11970,7 @@ __metadata:
   dependencies:
     "@chromatic-com/storybook": "npm:1.5.0"
     "@radix-ui/react-slot": "npm:^1.0.2"
+    "@storybook/addon-a11y": "npm:^8.1.9"
     "@storybook/addon-essentials": "npm:^8.1.9"
     "@storybook/addon-interactions": "npm:^8.1.9"
     "@storybook/addon-links": "npm:^8.1.9"
